@@ -349,8 +349,8 @@ namespace FinalProject
         // Chose to place ResidentEmailNotification within GUI due to presence of email formatting
         public async void ResidentEmailNotification()
         {
-            var sender = "DoNotReply@4d75c6e2-2e84-4129-9253-1808b92909f6.azurecomm.net";
-            string serviceConnectionString =  "endpoint=https://amlincoln1communicationservice.unitedstates.communication.azure.com/;accesskey=Vrt+4UCemkeOMWZrj2BDjF0ZFE1xEXeFwllMy5cOqk65DkCCfaxa3nF7CL6knkzXaT0ycEXvgM68WW63RdIj3Q==";
+            var sender = "";
+            string serviceConnectionString =  "";
             
             EmailClient emailClient = new EmailClient(serviceConnectionString);
             var subject = "Package Notification";
